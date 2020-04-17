@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cd /usr/share/nerdsrepo
+python3 -m nerdsrepo_zip
