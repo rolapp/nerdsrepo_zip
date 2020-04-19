@@ -314,7 +314,6 @@ class Frame_1(tk.Frame):
 
     def a_dir_fokusout(self,event):
         if event.widget == self.dir_a:
-            print(addondir.get())
             self.master.is_addon(addondir.get())
 
     def a_dir_fokusin(self,event):
